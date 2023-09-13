@@ -17,7 +17,7 @@ namespace FinanceNewsTicker.Pages
 
         public void OnGet()
         {
-            _newsService.GetFinanceNews();
+            var news = _newsService.GetFinanceNews();
         }
     }
 }
